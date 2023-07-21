@@ -1,6 +1,7 @@
 # University_Management_System
 Java application software for University Management.
-It is developed with Jave Swing and awt class.
+
+It is developed with Java Swing and awt class.
 
 Developed by Mr. Umesh Kumar. 
 
