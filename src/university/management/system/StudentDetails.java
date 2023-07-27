@@ -46,7 +46,7 @@ public class StudentDetails extends JFrame implements ActionListener {
         }
         
         JScrollPane jsp = new JScrollPane(table);
-        jsp.setBounds(0, 100, 900, 600);
+        jsp.setBounds(0, 100, 1300, 600);
         add(jsp);
         
         search = new JButton("Search");
@@ -74,8 +74,8 @@ public class StudentDetails extends JFrame implements ActionListener {
         cancel.addActionListener(this);
         add(cancel);
         
-        setSize(900, 700);
-        setLocation(300, 100);
+        setSize(1300, 700);
+        setLocation(100, 100);
         setVisible(true);
     }
     

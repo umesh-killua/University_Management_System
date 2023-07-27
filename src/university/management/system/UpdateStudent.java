@@ -21,7 +21,7 @@ public class UpdateStudent extends JFrame implements ActionListener{
         
         JLabel heading = new JLabel("Update Student Details");
         heading.setBounds(50, 10, 500, 50);
-        heading.setFont(new Font("Tahoma", Font.ITALIC, 35));
+        heading.setFont(new Font("Tahoma", Font.BOLD, 35));
         add(heading);
         
         JLabel lblrollnumber = new JLabel("Select Roll Number");

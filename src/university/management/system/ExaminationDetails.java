@@ -13,8 +13,8 @@ public class ExaminationDetails extends JFrame implements ActionListener {
     JTable table;
     
     ExaminationDetails() {
-        setSize(1000, 475);
-        setLocation(300, 100);
+        setSize(1400, 500);
+        setLocation(50, 100);
         setLayout(null);
         
         getContentPane().setBackground(Color.WHITE);
@@ -49,7 +49,7 @@ public class ExaminationDetails extends JFrame implements ActionListener {
         table.setFont(new Font("Tahoma", Font.PLAIN, 16));
         
         JScrollPane jsp = new JScrollPane(table);
-        jsp.setBounds(0, 130, 1000, 310);
+        jsp.setBounds(0, 150, 1400, 400);
         add(jsp);
         
         try {

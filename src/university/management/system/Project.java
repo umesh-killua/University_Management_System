@@ -10,7 +10,7 @@ public class Project extends JFrame implements ActionListener {
         setSize(1540, 850);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/uni.jpeg"));
-        Image i2 = i1.getImage().getScaledInstance(1500, 1000, Image.SCALE_DEFAULT);
+        Image i2 = i1.getImage().getScaledInstance(1500, 800, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
         add(image);
@@ -138,22 +138,33 @@ public class Project extends JFrame implements ActionListener {
         utility.add(calc);
         
         // about
-        JMenu about = new JMenu("About");
+        JMenu about = new JMenu("About Us");
         about.setForeground(Color.BLUE);
         mb.add(about);
         
-        JMenuItem ab = new JMenuItem("About");
+        JMenuItem ab = new JMenuItem("About Us");
         ab.setBackground(Color.WHITE);
         ab.addActionListener(this);
         about.add(ab);
         
+        // contact
+        JMenu contact = new JMenu("Contact Us");
+        contact.setForeground(Color.RED);
+        mb.add(contact);
+        
+        JMenuItem Cont = new JMenuItem("Contact Us");
+        Cont.setBackground(Color.WHITE);
+        Cont.addActionListener(this);
+        contact.add(Cont);
+        
         // exit
         JMenu exit = new JMenu("Exit");
-        exit.setForeground(Color.RED);
+        exit.setForeground(Color.BLACK);
         mb.add(exit);
         
         JMenuItem ex = new JMenuItem("Exit");
         ex.setBackground(Color.WHITE);
+        ex.setForeground(Color.RED);
         ex.addActionListener(this);
         exit.add(ex);
         
@@ -205,8 +216,10 @@ public class Project extends JFrame implements ActionListener {
             new ExaminationDetails();
         } else if (msg.equals("Fee Structure")) {
             new FeeStructure();
-        } else if (msg.equals("About")) {
-            new About();
+        } else if (msg.equals("About Us")) {
+            new AboutUs();
+        } else if (msg.equals("Contact Us")) {
+            new ContactUs();
         } else if (msg.equals("Student Fee Form")) {
             new StudentFeeForm();
         }

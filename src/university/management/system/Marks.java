@@ -13,54 +13,54 @@ public class Marks extends JFrame implements ActionListener {
     Marks(String rollno) {
         this.rollno = rollno;
         
-        setSize(500, 600);
-        setLocation(500, 100);
+        setSize(700, 600);
+        setLocation(300, 100);
         setLayout(null);
         
         getContentPane().setBackground(Color.WHITE);
         
-        JLabel heading = new JLabel("Delhi Technical Univeristy");
-        heading.setBounds(100, 10, 500, 25);
+        JLabel heading = new JLabel("Abdul Kalam Univeristy");
+        heading.setBounds(200, 10, 500, 25);
         heading.setFont(new Font("Tahoma", Font.BOLD, 20));
         add(heading);
         
-        JLabel subheading = new JLabel("Result of Examination 2022");
-        subheading.setBounds(100, 50, 500, 20);
+        JLabel subheading = new JLabel("Result of Examination 2023");
+        subheading.setBounds(200, 50, 500, 20);
         subheading.setFont(new Font("Tahoma", Font.BOLD, 18));
         add(subheading);
         
         JLabel lblrollno = new JLabel("Roll Number " + rollno);
-        lblrollno.setBounds(60, 100, 500, 20);
+        lblrollno.setBounds(50, 100, 500, 20);
         lblrollno.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(lblrollno);
         
         JLabel lblsemester = new JLabel();
-        lblsemester.setBounds(60, 130, 500, 20);
+        lblsemester.setBounds(50, 130, 500, 20);
         lblsemester.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(lblsemester);
         
         JLabel sub1 = new JLabel();
-        sub1.setBounds(100, 200, 500, 20);
+        sub1.setBounds(50, 200, 500, 20);
         sub1.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(sub1);
         
         JLabel sub2 = new JLabel();
-        sub2.setBounds(100, 230, 500, 20);
+        sub2.setBounds(50, 230, 500, 20);
         sub2.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(sub2);
         
         JLabel sub3 = new JLabel();
-        sub3.setBounds(100, 260, 500, 20);
+        sub3.setBounds(50, 260, 500, 20);
         sub3.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(sub3);
         
         JLabel sub4 = new JLabel();
-        sub4.setBounds(100, 290, 500, 20);
+        sub4.setBounds(50, 290, 500, 20);
         sub4.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(sub4);
         
         JLabel sub5 = new JLabel();
-        sub5.setBounds(100, 320, 500, 20);
+        sub5.setBounds(50, 320, 700, 20);
         sub5.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(sub5);
         
